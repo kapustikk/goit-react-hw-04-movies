@@ -1,0 +1,16 @@
+.nav {
+  margin-left: 100px;
+}
+
+.navlink {
+  margin-right: 20px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+}
+
+.activeNavlink {
+  composes: navlink;
+  color: #e50914;
+  text-decoration: underline;
+}

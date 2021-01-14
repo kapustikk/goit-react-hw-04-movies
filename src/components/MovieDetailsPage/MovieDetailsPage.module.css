@@ -1,0 +1,47 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  width: 1080px;
+}
+
+.poster {
+  width: 280px;
+}
+
+.list {
+  list-style: none;
+  margin-top: 30px;
+}
+
+.item {
+  margin-bottom: 20px;
+}
+
+.navlink {
+  color: #e50914;
+  text-decoration: none;
+}
+
+.navlink:hover,
+.navlink:focus {
+  color: white;
+  transform: scale(1.01);
+}
+
+.button {
+  width: 100px;
+  height: 25px;
+  color: white;
+  background-color: #e50914;
+  border: 0;
+  border-radius: 2px;
+  margin-bottom: 30px;
+}
+
+.button:hover,
+.button:focus {
+  background-color: #fff;
+  color: #e50914;
+  transform: scale(1.01);
+}

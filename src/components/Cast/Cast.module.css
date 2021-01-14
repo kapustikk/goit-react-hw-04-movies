@@ -1,0 +1,25 @@
+.list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: -10px;
+  text-align: center;
+}
+
+.item {
+  width: 200px;
+  padding: 5px;
+  margin: 10px;
+  overflow: hidden;
+  transition: 0.25s;
+  text-align: center;
+}
+
+.character {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  color: #e50914;
+}
