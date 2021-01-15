@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/components/Reviews/Reviews.module.css"],"names":[],"mappings":"AAAA,qBACE,eACF,CAEA,uBACE,aACF","file":"Reviews.52783c41.chunk.css","sourcesContent":[".item {\n  list-style: none;\n}\n\n.author {\n  color: #e50914;\n}\n"]}
