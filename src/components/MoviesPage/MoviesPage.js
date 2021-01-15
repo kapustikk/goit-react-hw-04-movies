@@ -3,8 +3,8 @@ import { NavLink, useRouteMatch, useLocation } from 'react-router-dom';
 import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import moviesAPI from '../services/api';
-import MovieErrorView from '../MovieErrorView/MovieErrorView';
 import MoviePendingView from '../MoviePendingView/MoviePendingView';
+import NotFound from '../NotFound404/NotFound';
 import s from '../MoviesPage/MoviesPage.module.css';
 
 const Status = {
@@ -56,7 +56,7 @@ export default function MoviesPage() {
     <>
       {status === Status.PENDING && <MoviePendingView />}
 
-      {status === Status.REJECTED && <MovieErrorView message={error} />}
+      {status === Status.REJECTED && <NotFound message={error} />}
 
       {status === Status.RESOLVED && (
         <>

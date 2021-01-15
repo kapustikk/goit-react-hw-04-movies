@@ -9,8 +9,6 @@ import {
 } from 'react-router-dom';
 import moviesAPI from '../services/api';
 import s from '../MovieDetailsPage/MovieDetailsPage.module.css';
-// import Cast from '../Cast/Cast';
-// import Reviews from '../Reviews/Reviews';
 import MoviePendingView from '../MoviePendingView/MoviePendingView';
 import MovieErrorView from '../MovieErrorView/MovieErrorView';
 
