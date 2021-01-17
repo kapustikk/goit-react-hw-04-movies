@@ -68,7 +68,7 @@ export default function MovieDetailsPage() {
     if (location.state && location.state.from) {
       return history.push(location.state.from);
     }
-    history.push('/goit-react-hw-04-movies');
+    history.push('/');
   };
 
   if (status === Status.PENDING) {

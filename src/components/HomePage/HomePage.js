@@ -23,7 +23,7 @@ export default function HomePage() {
             <Link
               className={s.link}
               to={{
-                pathname: `/goit-react-hw-04-movies/movies/${id}`,
+                pathname: `/movies/${id}`,
                 state: {
                   from: location.pathname,
                 },

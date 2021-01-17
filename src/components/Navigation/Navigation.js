@@ -7,14 +7,14 @@ const Navigation = () => (
       className={s.navlink}
       activeClassName={s.activeNavlink}
       exact
-      to="/goit-react-hw-04-movies"
+      to="/"
     >
       Home
     </NavLink>
     <NavLink
       className={s.navlink}
       activeClassName={s.activeNavlink}
-      to="/goit-react-hw-04-movies/movies"
+      to="/movies"
     >
       Movies
     </NavLink>

@@ -25,15 +25,15 @@ function App() {
 
       <Suspense fallback={<h2>Loading...</h2>}>
         <Switch>
-          <Route path="/goit-react-hw-04-movies" exact>
+          <Route path="/" exact>
             <HomePage />
           </Route>
 
-          <Route path="/goit-react-hw-04-movies/movies" exact>
+          <Route path="/movies" exact>
             <MoviesPage />
           </Route>
 
-          <Route path="/goit-react-hw-04-movies/movies/:movieId">
+          <Route path="/movies/:movieId">
             <MovieDetailsPage />
           </Route>
         </Switch>
