@@ -21,8 +21,8 @@
     "Reviews.js": "/goit-react-hw-04-movies/static/js/Reviews.f04803f8.chunk.js",
     "Reviews.js.map": "/goit-react-hw-04-movies/static/js/Reviews.f04803f8.chunk.js.map",
     "main.css": "/goit-react-hw-04-movies/static/css/main.36d19c2d.chunk.css",
-    "main.js": "/goit-react-hw-04-movies/static/js/main.f8dad9d4.chunk.js",
-    "main.js.map": "/goit-react-hw-04-movies/static/js/main.f8dad9d4.chunk.js.map",
+    "main.js": "/goit-react-hw-04-movies/static/js/main.5f32785d.chunk.js",
+    "main.js.map": "/goit-react-hw-04-movies/static/js/main.5f32785d.chunk.js.map",
     "runtime-main.js": "/goit-react-hw-04-movies/static/js/runtime-main.acfebcf4.js",
     "runtime-main.js.map": "/goit-react-hw-04-movies/static/js/runtime-main.acfebcf4.js.map",
     "static/css/9.0b01065c.chunk.css": "/goit-react-hw-04-movies/static/css/9.0b01065c.chunk.css",
@@ -44,6 +44,6 @@
     "static/css/9.0b01065c.chunk.css",
     "static/js/9.e8a9a8a6.chunk.js",
     "static/css/main.36d19c2d.chunk.css",
-    "static/js/main.f8dad9d4.chunk.js"
+    "static/js/main.5f32785d.chunk.js"
   ]
 }
