@@ -33,7 +33,7 @@ function App() {
             <MoviesPage />
           </Route>
 
-          <Route path="/movies/:movieId">
+          <Route path="/goit-react-hw-04-movies/movies/:movieId">
             <MovieDetailsPage />
           </Route>
         </Switch>
